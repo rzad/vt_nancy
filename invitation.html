@@ -1,0 +1,88 @@
+<!DOCTYPE html>
+<html lang="en-US">
+
+  <head>
+    <title>Invitation Page</title>
+    <link rel="stylesheet" type="text/css" href="css/main.css" />
+
+  </head>
+
+  <body>
+    <header>
+      <div class="top">
+        <a class="logo" href="index.html">CapellaVolunteers<span class="dotcom">.org</span></a>
+      </div>
+      <nav>
+        <ul class="topnav">
+          <li><a href="index.html">Home</a>
+          </li>
+          <li><a href="invitation.html" class="active">Invitation</a>
+          </li>
+          <li><a href="gallery.html">Gallery</a>
+          </li>
+          <li><a href="registration.html">Registration</a>
+          </li>
+        </ul>
+
+      </nav>
+    </header>
+    <section id="pageForm">
+
+      <label for="numInvitees">Number of Invitees:</label>
+      <input type="text" id="numInviteesEl" name="numInvitees" placeholder="Number of Invitees" />
+
+      <form action="#">
+        <div id='rows'>
+          <hr>
+          <hr>
+          <label for="recipientName">Recipient name:</label>
+          <input type="text" id="recipientNameEl_0" name="recipientName" placeholder="Enter your Recipient Name" />
+
+          <label for="organizationName">Organization name:
+          </label>
+          <input type="text" id="organizationNameEl_0" name="organizationName" placeholder="Enter your Organization Name" />
+
+          <label for="eventDate">Event Date:
+          </label>
+          <input type="text" id="eventDateEl_0" name="eventDate" placeholder="Enter your Event Date" />
+
+          <label for="websiteURL">URL:
+          </label>
+          <input type="text" id="websiteURLEl_0" name="websiteURL" placeholder="Enter your Website URL" />
+
+          <label for="hostName">Host name:
+          </label>
+          <input type="text" id="hostNameEl_0" name="hostName" placeholder="Host Name" />
+      
+          <br>
+        </div>
+
+        <input type="submit" value="Submit">
+      </form>
+    </section>
+
+    <div id="display">
+      <div id='articles'>
+        <article id="placeholderContent_0">
+          Hello <span id="recipientName_0">recipientName</span>!
+          <br />
+          <br /> You have been invited to volunteer for an event held by <span id="organizationName_0">organizationName</span>
+          on <span id="eventDate_0">eventDate</span>. Please come to the following website: <span
+            id="websiteURL_0">websiteURL</span> to sign up as a volunteer.
+          <br />
+          <br /> Thanks!
+          <br />
+          <br />
+          <span id="hostName_0">hostName</span>
+        </article>
+          
+        <br>
+      </div>
+    </div>
+
+    <div style="text-align: center;">This events site is for IT-FP3215 tasks.
+    </div>
+    <script src="script.js"></script>
+  </body>
+
+</html>
